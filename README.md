@@ -11,6 +11,7 @@
 -   Generate env file: `cp .env.example .env`
 -   Install dependencies: `composer install`
 -   Run docker: `./vendor/bin/sail up`
+-   Run migration: `./vendor/bin/sail artisan migrate --seed`
 -   Browse: `http://localhost/api/posts`
 
 ## Sample APIs:
